@@ -1,1 +1,1 @@
-Решение тестового задания представлено в виде файлов Jupyter Notebooks и HTML.
+Решение тестового задания представлено в виде файлов [Jupyter Notebooks](https://nbviewer.org/github/andrewha/wheat_price_forecast/blob/main/solution_Batyrov.ipynb) и [HTML](https://html-preview.github.io/?url=https://github.com/andrewha/wheat_price_forecast/blob/main/solution_Batyrov.html).
