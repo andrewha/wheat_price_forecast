@@ -1,1 +1,1 @@
-# wheat_price_forecast
+Решение тестового задания представлено в виде файлов Jupyter Notebooks и HTML.
