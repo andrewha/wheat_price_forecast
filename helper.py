@@ -411,7 +411,7 @@ def plot_forecast(full_df, forecast_df, forecast_mean, forecast_ci, col, conf_lv
     """
     plt.figure(figsize=(8, 4))
     plt.plot(full_df[col], color='C0', marker='.', lw=0.75, label='All')
-    plt.plot(forecast_df[col], color='C1', marker='.', lw=1.0, label='True')
+    plt.plot(forecast_df[col], color='C1', marker='.', lw=1.0, label='Actual')
     plt.plot(forecast_mean, marker='.', color='C2', lw=1.0, label='Forecast')
     plt.fill_between(forecast_df.index, forecast_ci.iloc[:, 0], forecast_ci.iloc[:, 1], color='C2', lw=0, alpha=0.15, label=f'{conf_lvl:.0%} CI')
     plt.xlabel(xlabel, size=10, family='monospace')
